@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(252, 202, 209);
+}
+.login_form{
+    display: flex;
+    /* margin: 10%; */
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); */
+}
+.login_content{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+}
+.login_content > h2{
+    text-align: center;
+}
+.icons, svg{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+.note_about_login{
+    margin-top: 20px;
+    color: black;
+}
+.id_pass{
+    text-align: center;
+}
+input{
+    padding: 7px;
+    height: 10%;
+    width: 60%;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+.forgot_pass > p{
+    padding-top: 15px;
+    text-align: center;
+    color: black;
+    font-weight: 500%;
+}
+.login_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_btn > button{
+    border-radius: 50px;
+    color: white;
+    background-color: red;
+    border: none;
+    height: 33px;
+    width: 100px;
+    font-size: medium;
+    text-align: center;
+}
+.login_btn > button:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.login_btn, a{
+    text-decoration: none;
+    color: white;
+}
+
+.info_content{
+    background-color: rgb(255, 40, 76);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.language_info{
+    text-align: center;
+    color: white;
+    
+}
+.note{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    /* padding-left: 70px;
+    padding-right: 70px; */
+}
+.main_sec{
+    margin:10%;
+}
+@media (max-width: 768px) {
+    .login_content{
+        border-radius: 10px !important;
+    }
+    .info_content{
+        border-radius: 10px !important;
+    }
+}
